@@ -27,6 +27,7 @@ public class ArrayController {
      */
     @Autowired private OnlyArray onlyArray;
     @Autowired private ArrayConverter arrayConverter;
+    @Autowired private ArrayIndicator arrayIndicator;
     private UserInputModel userInputModel;
 
     /**
@@ -51,7 +52,7 @@ public class ArrayController {
         //making array from string
         String[]ourArray = arrayConverter.toArray(userInputModel.getUserInput());
         //check which kind of array
-        if (ArrayIndicator.isIntArray(ourArray)){
+        if (arrayIndicator.isIntArray(ourArray)){
             //we got int array
             int[]ourIntArray = arrayConverter.generateIntArray(ourArray);
             model.addAttribute("message1", "USER INPUT: " + userInputModel.getUserInput());

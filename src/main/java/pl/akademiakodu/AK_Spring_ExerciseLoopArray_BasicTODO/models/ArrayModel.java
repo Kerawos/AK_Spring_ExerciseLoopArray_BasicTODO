@@ -1,5 +1,8 @@
 package pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.models;
 
+/**
+ * Output model containing listed below arrays;
+ */
 public class ArrayModel {
 
     int[] intArray;
