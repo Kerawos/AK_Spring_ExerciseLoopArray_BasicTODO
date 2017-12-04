@@ -1,7 +1,10 @@
-package pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.models;
+package pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.models.services;
+
+import org.springframework.stereotype.Service;
 
 import java.util.Random;
 
+@Service
 public class OnlyLoop {
 
     private StringBuilder sb;

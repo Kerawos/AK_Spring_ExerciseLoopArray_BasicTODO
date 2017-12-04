@@ -3,6 +3,7 @@ package pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.models;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.models.services.OnlyLoop;
 
 import static org.junit.Assert.*;
 

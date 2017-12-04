@@ -1,4 +1,4 @@
-package pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.services;
+package pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.models.services;
 
 public class GenericArray<type>{
 

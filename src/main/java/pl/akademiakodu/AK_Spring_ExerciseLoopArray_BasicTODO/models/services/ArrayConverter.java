@@ -1,5 +1,8 @@
-package pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.services;
+package pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.models.services;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class ArrayConverter implements InputToArray {
 
     @Override

@@ -1,4 +1,4 @@
-package pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.models.bags;
+package pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.models;
 
 public class ArrayModel {
 
