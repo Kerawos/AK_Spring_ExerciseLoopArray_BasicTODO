@@ -1,5 +1,14 @@
 package pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.models.services;
+/**
+ * Inport section
+ */
+import org.springframework.stereotype.Service;
 
+/**
+ * Responsible for managing integer or string arrays
+ * @param <type>
+ */
+@Service
 public class GenericArray<type>{
 
     private type[] array;
