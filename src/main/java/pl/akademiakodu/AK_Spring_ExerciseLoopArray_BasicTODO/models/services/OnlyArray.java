@@ -2,7 +2,6 @@ package pl.akademiakodu.AK_Spring_ExerciseLoopArray_BasicTODO.models.services;
 /**
  * Import section
  */
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -10,12 +9,6 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class OnlyArray {
-
-    /**
-     * Services declaration
-     */
-    @Autowired ArrayIndicator arrayIndicator;
-    @Autowired ArrayConverter arrayConverter;
 
     /**
      * Method calculating maximum integer in given integer array
